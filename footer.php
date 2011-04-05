@@ -1,12 +1,14 @@
-<div class="footer">
+<div id="footer">
+<div id="leftfooter">
 <ul>
-	<li>LAVISCO CRE</li>
+	<li>LAVISCO CRE&trade;</li>
 	<li>contact us</li>
 	<li>site map</li>
 	<li>partners</li>
 	<li>client login</li>
 </ul>
-<div class="rightfooter">
+</div>
+<div id="rightfooter">
 	<ul>
 		<li>facebook</li>
 		<li>twitter</li>
@@ -15,5 +17,7 @@
 	</ul>
 </div>
 </div>
+
+</div><!--close of main_container div-->
 </body>
 </html>

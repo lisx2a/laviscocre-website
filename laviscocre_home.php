@@ -1,5 +1,5 @@
 <?php include_once('header.php') ?>
-<div class="main_container">
+<div id="main_content">
 </div>
 
 <?php include_once('footer.php') ?>

@@ -7,4 +7,17 @@
 <!-- Design by ShaDoe McIntosh Web Development by Lissa Aguilar -->
 </head>
 <body>
+<div id="main_container">
+<img style="float:left" src="images/laviscocre_logo.png" />
+<div id="main_nav">
+	<ul class="nav_sidebar">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
 
