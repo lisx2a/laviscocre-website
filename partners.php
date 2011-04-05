@@ -1,6 +1,6 @@
 <?php include_once('header.php') ?>
 <div id="main_content">
-<h2>Contact Us</h2>
+<h2>Partners</h2>
 <div>
 <table>
 	<tr>
