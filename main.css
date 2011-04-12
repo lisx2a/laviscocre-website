@@ -1,15 +1,53 @@
 * {margin:0;
 	padding:0;}
 
+body {font-family:"Trebuchet MS", sans-serif;
+	font-size:1em;}
 
-#main_container{}
+#main_container{
+	width:990px;
+	height:700px;
+	margin:5% auto 0 auto;
+	padding:0;}
+
+#laviscocre_logo {background: url(images/lavisco_imagemap.png) no-repeat -210px -480px;
+	width:100%;
+	height:120px;}
+
 #main_nav{}
-.nav_sidebar{}
-#main_content{}
+
+.nav_sidebar {
+	list-style:none;
+	}
+#content{
+	width:850px;
+	float:right;}
 
 
 
-#footer {}
-#leftfooter{}
-#rightfooter{}
+#footer {
+	font-size:0.8em;
+	height:20px;
+	position:relative;}
+
+#leftfooter ul li{
+	display:inline;
+	margin:;
+	float:left;}
+
+.nomargin{
+	margin-right:20px;}
+
+#leftfooter a {
+	width:70px;
+	display:block;}
+
+#rightfooter ul li{
+	display:inline;
+	list-style:none;
+	float:right;}
+
+#rightfooter a{
+	width:80px;
+	display:block;}
 
