@@ -1,11 +1,13 @@
 <?php include_once('header.php') ?>
-<div id="main_content">
-<h2>Meet with Us</h2>
+<div style="height:400px;width:850px;margin:0 0 5px 0px">
+<h3>Meet with Us</h3>
 <div>
 <table>
 	<tr>
-<td></td>
-<td><p>
+<td><div style="border:1px solid black; width:400px;height:250px;"></div>
+</td>
+<td>
+<p>
 New York is the city to meet the most creative people on the planet, and Lavisco Cre is a team that shows that the best.</p>
 <p>
 We've partnered with some of the NYC's most welcoming social venues to ensure that your LVC meetings are as memorable as the packages that we're creating for you.

@@ -1,3 +1,4 @@
+<hr />
 <div id="footer">
 <div id="leftfooter">
 <ul>

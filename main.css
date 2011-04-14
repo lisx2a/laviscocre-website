@@ -3,6 +3,11 @@
 
 body {font-family:"Trebuchet MS", sans-serif;
 	font-size:1em;}
+ 
+ ul li {list-style:none;}
+
+ a {text-decoration:none;
+ 	font-size:.9em}
 
 #main_container{
 	width:990px;
@@ -30,7 +35,7 @@ body {font-family:"Trebuchet MS", sans-serif;
 	height:20px;
 	position:relative;}
 
-#leftfooter ul li{
+#leftfooter ul li {
 	display:inline;
 	margin:;
 	float:left;}
@@ -40,6 +45,7 @@ body {font-family:"Trebuchet MS", sans-serif;
 
 #leftfooter a {
 	width:70px;
+	text-decoration:none;
 	display:block;}
 
 #rightfooter ul li{
@@ -47,7 +53,9 @@ body {font-family:"Trebuchet MS", sans-serif;
 	list-style:none;
 	float:right;}
 
-#rightfooter a{
+#rightfooter a {
 	width:80px;
+	text-decoration:none;
 	display:block;}
 
+.bold {font-weight:bold;}

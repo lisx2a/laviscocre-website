@@ -1,31 +1,32 @@
-<?php include_once('header.php') ?>
-<div id="main_content">
-<h2>Partners</h2>
-<div>
-<table>
-	<tr>
-<td></td>
-<td><p>
-Quick question? Full story? We'd love to hear from you. Reach out: Email, call text, Facebook, Twitter..we're hip.</p>
-<p>
-<span class="bold">Cori Kane</span><br />
-LVC Coordinator<br />
-answers@laviscocre.com
-</p>
-<p>
-<span class="bold">Ted Ou-Yang</span><br />
-Marketing Director<br />
-marketing@laviscocre.com<br />
-</p>
-<p>Call Us! 917-972-9100</p>
-</td>
-</tr>
-<tr>
-	<td><a href="mailto:answers@laviscocre.com?subject=Meet%20Lavisco%Cre"><img src="images/arrowicon.png" />Cory(left) - Ted(right)</a></td>
-</tr>
-</table>
+<?php include_once('header.php'); ?>
+
+<div style="height:400px; width:850px; margin:0 0 5px 0px">
+	<h3> Our Partners</h3>
+
+	<table>
+		<tr>
+			<td>
+				<div style="border:1px solid black; width:400px;height:250px;"></div>
+			</td>
+
+			<td width="400px" style="padding-left:2%">	
+				<p>
+					LVC is always so very grateful to everyone who gives us great opportunities
+					to work with them, no matter the size.
+ 				</p>
+				
+				<p>
+					Here is a few awesome companies that we've partnered with to make you're events
+					as comfortable, beautiful, tasty, interesting and creatively wonderful as they can be.
+				</p>
+				
+				<p>
+					Thank you, Everyone!
+				</p>
+			</td>
+		</tr>
+	</table>
 </div>
 
-</div>
 
-<?php include_once('footer.php') ?>
+<?php include_once('footer.php'); ?>
