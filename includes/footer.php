@@ -15,9 +15,9 @@
 	<div id="rightfooter">
 		<ul>
 			<li id="rightfooter_a"><a href="?page=recruit">become a Cre</a></li>
-			<li id="rightfooter_b"><a class="facebook" href="http://www.facebook.com/pages/Lavisco-Cre/174505335927593"></a></li>
-			<li id="rightfooter_c"><a class="twitter" href="http://www.twitter.com/#!/LaviscoCre"></a></li>
-			<li id="rightfooter_d"><a class="linkedin" href="www.linkedin.com"></a></li>
+			<li id="rightfooter_b"><a class="facebook" href="http://www.facebook.com/pages/Lavisco-Cre/174505335927593" target="_blank"></a></li>
+			<li id="rightfooter_c"><a class="twitter" href="http://www.twitter.com/#!/LaviscoCre" target="_blank"></a></li>
+			<li id="rightfooter_d"><a class="linkedin" href="www.linkedin.com" target="_blank"></a></li>
 		</ul>
 	</div>
 
