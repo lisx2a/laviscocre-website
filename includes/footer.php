@@ -1,26 +1,27 @@
-<hr />
-<div id="footer">
-<div id="leftfooter">
-<ul>
-	<li class="nomargin">LAVISCO CRE&trade;</li>
-	<li><a href="contactus.php">contact us</a></li>
-	<li><a href="sitemap.php">site map</a></li>
-	<li><a href="partners.php">partners</a></li>
-	<li><a href=#>client login</a></li>
-</ul>
-</div>
-<div id="rightfooter">
-	<ul>
-		<li><a href="meet.php">become a Cre</a></li>
-		<li><a class="facebook" href="www.facebook.com"></a></li>
-		<li><a class="twitter" href="www.twitter.com"></a></li>
-		<li><a class="linkedin" href="www.linkedin.com"></a></li>
-	</ul>
-</div>
-</div>
-<hr />
-</div>
 
-</div><!--close of main_container div-->
+
+<div id="footer">
+	<div class="divider"></div>
+	<div id="leftfooter">
+		<ul>
+			<li>LAVISCO CRE&trade;</li>
+			<li id="leftfooter_a"><a href="?page=contactus">contact us</a></li>
+			<li id="leftfooter_b"><a href="?page=sitemap">site map</a></li>
+			<li id="leftfooter_c"><a href="?page=partners">partners</a></li>
+			<li id="leftfooter_d"><a href=?page=client">client login</a></li>
+		</ul>
+	</div>
+
+	<div id="rightfooter">
+		<ul>
+			<li id="rightfooter_a"><a href="?page=recruit">become a Cre</a></li>
+			<li id="rightfooter_b"><a class="facebook" href="http://www.facebook.com/pages/Lavisco-Cre/174505335927593"></a></li>
+			<li id="rightfooter_c"><a class="twitter" href="http://www.twitter.com/#!/LaviscoCre"></a></li>
+			<li id="rightfooter_d"><a class="linkedin" href="www.linkedin.com"></a></li>
+		</ul>
+	</div>
+
+<div class="divider"><div>
+</div>
 </body>
 </html>

@@ -1,16 +1,9 @@
-<?php include_once('header.php') ?>
+	<div class="internal_content">
+
+		<div class="page_title">About Us</div>
 
 
-<div style="height:400px; width:850px; margin:0 0 5px 0px">
-	<h3>About Us</h3>
-
-	<table>
-		<tr>
-			<td>
-				<div style="border:1px solid black; width:400px;height:250px;"></div>
-			</td>
-
-			<td width="400px" style="padding-left:2%">	
+			<div class="center_column">	
 				<p>
 					Welcome.</p><br />
 				<p>
@@ -23,10 +16,7 @@
 					and why they are some of the most talented people in this city to work. So, visit us often, and bring a friend next time. We 
 					promise to keep getting more creative with every visit.
 				</p>
-			</td>
-		</tr>
-	</table>
-</div>
+		</div>
+						<a class="link_icon" href="?page=services">LVC Services</a>
 
-
-<?php include_once('footer.php') ?>
+	</div>

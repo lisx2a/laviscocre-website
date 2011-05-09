@@ -1,148 +1,379 @@
 * {margin:0;
-	padding:0;}
+	padding:0;
+	max-height:680px;}
 
-body {font-family:"Trebuchet MS", sans-serif;
-	font-size:1em;}
+body {
+	background: #B4B5B4 url(../images/background_slice.jpg) repeat-x 0 0;
+	font-family: "Verdana", sans-serif;
+	font-size:0.9em;
+	line-height:1.8em;
+}
  
  ul li {list-style:none;}
 
  a {text-decoration:none;
- 	font-size:.9em}
+   color:#000000;
+	cursor:pointer;}
+ a:hover {color:510e6d;}
+
+.page_title {
+		margin-top:-110px;
+		position:relative;
+		font-weight:normal;
+		font-size:1.1em;}
 
 #main_container{
-	width:990px;
-	height:700px;
-	margin:5% auto 0 auto;
+	position:relative;
+	width:1260px;
+	height:680px;
+	margin:auto 0;
 	padding:0;}
 
-#laviscocre_logo {background: url(../images/lavisco_imagemap.png) no-repeat 300px -550px;
-	width:100%;
-	height:110px;
-	margin:0 0 20px 0;
-	padding:0;}
+#laviscocre_logo {background: url(../images/lavisco_imagemap.png) no-repeat -6px -572px;
+	width:860px;
+	height:120px;
+	top:86px;
+	float:right;
+	margin:0;
+	padding:0;
+	position:relative;}
 
 /* navigation */
-/*#main_nav {background: transparent url(../images/lavisco_imagemap.png) no-repeat 0 -20px;
-	width:180px;
-	height:420px;
-	position:relative;
-	left:50px;
+#main_nav {background:transparent url(../images/lavisco_imagemap.png) no-repeat 0px -1px;
+	width:60px;
+	height:556px;
+	top:38px;
 	margin:0;
-	padding:0;}*/
+	position:relative;
+	padding:0;}
 
 #nav_sidebar_a {
-	background:transparent url(../images/lavisco_imagemap.png) no-repeat -4px -16px;
+	background:transparent url(../images/lavisco_imagemap.png) no-repeat -62px -1px;
 	list-style:none;
-	width:78px;
-	height:415px;
+	width:103px;
+	height:568px;
+	left:64px;
 	padding:0;
-	position:relative;
-
-	}
+	margin:0;
+	position:relative;}
 
 #nav_sidebar_a li {
 	margin:0;padding:0;
-	top:0;
-	}
+	top:0;}
 
 #nav_sidebar_a li, #nav_sidebar_a a{
-	width:78px;
+	width:101px;
 	display:block;
 	position:relative;
 	}
 
 #panel_a1 {
 	top:0;
-	width:78px;
-	height:158px;}
+	width:101px;
+	height:210px;}
 
 #panel_a1 a:hover {
-	background:transparent url(../images/lavisco_imagemap.png) no-repeat -182px -20px;
-	cursor:pointer;
-	}
+	background:transparent url(../images/lavisco_imagemap.png) no-repeat -266px -2px;}
 
 #panel_a2 {
-	width:80px;
-	height:84px;
-	top:8px;
+	width:101px;
+	height:106px;
+	top:10px;
 	}
  
 #panel_a2 a:hover {
- 	background:transparent url(../images/lavisco_imagemap.png) no-repeat -182px -46px;
- 	width:80px;}
+ 	background:transparent url(../images/lavisco_imagemap.png) no-repeat -266px -222px;}
 
 
 #panel_a3 {
-	top:14px;
-	width:80px;
-	height:164px;}
+	top:16px;
+	width:101px;
+	height:218px;}
 
 #panel_a3 a:hover {
-	background:transparent url(../images/lavisco_imagemap.png) no-repeat -182px -46px;
-	width:80px;}
-
-
-
+	background:transparent url(../images/lavisco_imagemap.png) no-repeat -266px -334px;
+	width:101px;}
 
 #nav_sidebar_b{
+	background:transparent url(../images/lavisco_imagemap.png) no-repeat -165px -1px;
 	list-style:none;
-	border:1px solid blue;
+	width:101px;
+	height:566px;
+	left:175px;
+	top:0px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	}
+
+#nav_sidebar_b li {
+	margin:0;padding:0;
+	top:0;}
+
+#nav_sidebar_b li, #nav_sidebar_b a {
+	width:101px;
+	display:block;
+	}
+
+#panel_b1 {
+	top:0;
+	width:101px;
+	height:101px;}
+
+#panel_b1 a:hover {
+	background:transparent url(../images/lavisco_imagemap.png) no-repeat -368px -1px;}
+
+#panel_b2 {
+	top:8px;
+	width:101px;
+	height:101px;
+	position:relative;}
+
+#panel_b2 a:hover {
+	background:transparent url(../images/lavisco_imagemap.png) no-repeat -368px -111px;}
+
+#panel_b3 {
+	top:17px;
+	position:relative;
+	width:101px;
+	height:211px;}
+
+#panel_b3 a:hover {
+	background:transparent url(../images/lavisco_imagemap.png) no-repeat -368px -223px;}
+
+#panel_b4 {
+	top:24px;
+	position:relative;
 	width:78px;
-	height:415px;
-	margin: -415px 0 0 95px;
-	float:left;
-}
+	height:99px;}
 
+#panel_b4 a:hover {
+	background:transparent url(../images/lavisco_imagemap.png) no-repeat -368px -439px;}
 
-#content{
-	width:680px;
-	float:right;}
+.internal_content{
+	float:right;
+	width:860px;
+	height:250px;
+	margin:-300px 0 10px 0;
+	}
+
+#intro_movie {border:1px solid black; 
+	height:300px; 
+	margin:0px 0 30px 0px;
+	}
 
 
 
 #footer {
+	width:860px;
 	font-size:0.8em;
-	height:25px;
-	padding:5px 0 5px 0;
-	position:relative;}
+	height:44px;
+	padding:0;
+	position:relative;
+	float:right;
+	top:30px;
+	margin:0;}
 
-#leftfooter ul li {
+
+.divider {width:860px;
+			height:1px;
+			background-color:#000;
+			position:absolute;}
+
+#leftfooter  {background:transparent url(../images/link_bullet.png) 0 0 no-repeat;
+	position:relative;
+	left:0px;
+	margin:0;
+	padding:5px 0;
+	width:580px;}
+
+#leftfooter li {
+	position:relative;
 	display:inline;
 	margin:0;
-	float:left;}
+	left:0px;
+	}
 
-.nomargin{
-	margin-right:25px;}
+.nomargin {
+	margin:0px;
+	position:relative;
+	display:inline}
 
-#leftfooter a {
-	width:60px;
-	text-decoration:none;
-	padding:0 0 0 10px;
-	display:block;}
 
-#rightfooter ul li{
+#leftfooter_a{
+	padding-left:20px;
+	list-style-type:disc;
+	width:190px;}
+	
+#leftfooter_b{
+	padding-left:10px;
+	width:190px;}
+
+#leftfooter_c{
+	padding-left:10px;
+	width:190px;}
+#leftfooter_d{
+	padding-left:10px;
+	width:190px;}
+
+
+#rightfooter  {
+	position:relative;
+	margin:0;
+	padding:5px auto;
+	top:-30px;
+	left:408px;
+	width:455px;}
+
+#rightfooter  li{
 	display:inline;
+	position:relative;
 	list-style:none;
 	float:right;}
 
-#rightfooter a {
-	padding:0 0 0 5px;
-	width:30px;
-	text-decoration:none;
-	cursor:pointer;
-	}
+#rightfooter_a{
+	margin-left:5px;
+	list-style-type:disc;
+	padding-left:20px;
+	width:90px;}
+	
+#rightfooter_b{
+	margin-left:10px;
+	width:25px;}
+
+#rightfooter_c{
+	margin-left:10px;
+	width:25px;}
+#rightfooter_d{
+	margin-left:10px;
+	width:25px;}
 
 .bold {font-weight:bold;}
 
-.twitter {background:transparent url(../images/lavisco_imagemap.png) -410px -43px;
-	width:10px;
-	height:25px;
+.twitter {background:transparent url(../images/lavisco_imagemap.png) -470px -32px;
+	width:30px;
+	height:30px;
 	display:block;}
-.facebook {background:transparent url(../images/lavisco_imagemap.png) -410px -78px;
-	width:10px;
-	height:25px;
+
+.facebook {background:transparent url(../images/lavisco_imagemap.png) -470px -68px;
+	width:30px;
+	height:30px;
 	display:block;}
-.linkedin {background:transparent url(../images/lavisco_imagemap.png) -410px -10px;
-	width:10px;
-	height:25px;
+
+.linkedin {background:transparent url(../images/lavisco_imagemap.png) -470px 0px;
+	width:30px;
+	height:30px;
 	display:block;}
+
+
+.link_icon { background:transparent url(../images/lavisco_imagemap.png) no-repeat -470px -107px;
+	line-height:1.7em;
+	display:block;
+	margin:0px;
+	padding-left:40px;
+	font-style:italic;
+	top:375px;
+	position:relative;
+	}
+
+#slideshow {
+	position:relative;
+	height:210px;}
+
+#slideshow IMG {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;}
+
+#slideshow IMG.active {
+	z-index:10;}
+
+#slideshow IMG.last-active {
+	z-index:9;}
+
+#sitemap {
+position:relative;top:86px;width:360px;height:250px;float:left;margin:0 0 0 10px;font-size:.9em;line-height:1.5em;}
+
+#sitemap li {margin:0 0 10px 0;}
+
+#sitemap_normal li {margin:0;}
+
+.sitemaplink {font-weight:bold;
+	color:#000000;
+	font-size:1.1em;}
+
+
+.container_cre_photo {
+		border:1px solid black;
+		width:200px;
+		height:117px;
+		float:left;
+		margin:0 8px 8px 0;
+		position:relative;}
+
+
+.left_column {
+	width:430px; 
+	height:330px;
+	font-size:0.9em;
+	float:left;
+}
+
+.right_column {
+	width:430px;
+	height:330px;
+	font-size:0.9em;
+	top:-6px;
+	float:left;
+	position:relative;}
+
+.overflow {
+	overflow:auto;
+	height:280px;
+	}
+
+
+.small_column {
+	width:192px;
+	height:250px;
+	margin-right:26px;
+	float:left;
+	font-size:0.8em;
+	position:relative;
+}
+
+.small_column h2 {font-size:1em;
+	margin:0 0 -10px 0;}
+
+.small_column ul {
+	margin:5px 0 0 15px;}
+
+.no_margin {margin:0;
+	top:0px;}
+
+.border {
+	border:1px solid #000000;}
+
+.border_grey {
+	border:1px solid #cccccc;}
+
+.center_column {
+	font-size:.9em;
+	line-height:1.8em;
+	height:330px;
+	position:relative;
+	float:left;
+}
+
+#scrollbar1 { width: 420px; margin: 0px; }
+#scrollbar1 .viewport { width: 400px; height: 200px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: relative; left: 0; top: 0; }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background-color: #515151; }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; }
+#scrollbar1 .track { background-color: #CCC; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: relative; top: 0; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar1 .disable{ display: none; }
+

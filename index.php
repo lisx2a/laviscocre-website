@@ -1,6 +1,13 @@
-<?php require_once ('includes/header.php'); ?>
+<?php
 
-<div style="border:1px solid black; height:400px; width:680px; margin:-420px 0 20px 0px;position:relative;">
+require_once ('includes/header.php');
 
-</div>
-<?php require_once ('includes/footer.php'); ?>
+if(isset($_GET["page"]) && FILE_EXISTS($_GET["page"].".php")) {
+	$page = $_GET["page"];
+} else {
+	$page = "home";
+}
+
+include ($page.".php");
+include ('includes/footer.php'); 
+?>
