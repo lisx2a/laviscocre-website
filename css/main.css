@@ -18,7 +18,7 @@ body {
 
 .page_title {
 		margin-top:-110px;
-		position:relative;
+		position:absolute;
 		font-weight:normal;
 		font-size:1.1em;}
 
@@ -154,6 +154,7 @@ body {
 	float:right;
 	width:860px;
 	height:250px;
+	position:relative;
 	margin:-300px 0 10px 0;
 	}
 
@@ -272,8 +273,8 @@ body {
 	margin:0px;
 	padding-left:40px;
 	font-style:italic;
-	top:375px;
-	position:relative;
+	top:295px;
+	position:absolute;
 	}
 
 #slideshow {
@@ -376,4 +377,30 @@ position:relative;top:86px;width:360px;height:250px;float:left;margin:0 0 0 10px
 #scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: relative; top: 0; }
 #scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
 #scrollbar1 .disable{ display: none; }
+#overview_one {
+	font-size:.8em;}
+
+.center {top:30px;
+	left:15px;
+	font-size:1.2em;
+	font-weight:bold;
+	position:absolute}
+
+.center .link_icon {
+ background:transparent url(../images/lavisco_imagemap.png) no-repeat -470px -107px;
+	height:50px;
+	width:50px;
+	margin:0px;
+	left:140px;
+	top:180px;
+	position:absolute;
+
+}
+
+.normal {font-weight:normal;
+	font-size:.8em;
+	position:absolute;
+	width:160px;
+	margin-top:15px;}
+
 

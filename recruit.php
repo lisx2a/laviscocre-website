@@ -7,7 +7,7 @@
 		<div class="right_column" id="scrollbar1"> 
 			<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
 			<div class="viewport">
-				<div class="overview">
+				<div class="overview" id="overview_two">
 	<h2>Meetings, Greetings and Something Like an Interview</h2>
 	<ul>	
 		<li>When: April 8th, 2010</li>
@@ -31,8 +31,37 @@ Lavisco Cre is looking for some these...<br />
 	</div>
 	</div>
 	</div>
-			<a class="link_icon" href="mailto:answers@laviscocre.com?subject=Meet%20Lavisco%20Cre">Meetings, Greetings and Something Like an Interview</a>
+	<div id="overview_one" class="right_column">
+	<p><span class="bold">LVC is looking to add a few Creatives to the team!</span></p>
+	<p>Lavisco Cre is: a collective of creative individuals working together. What that means is when you work with us, you’re guaranteed a collaborative experience, timed appropriately that pays well. 
+ie: You win. </p>
+
+<p>Because we push ourselves to be great, deliver excellence and whenever we can, enrich lives (sappy but so true), you will become a part of a team that, like you, only wants to work with dedicated, enthusiastic, genuine people. (oh, and crazy talented too)</p>
+<br/>
+<p>If this sounds like a short list that you want to be a part of, and you promise to do nothing less than bring greatness with you, 
+read below. We’d love to tell you more.</p>   
+	
+	</div>
+			<a class="link_icon" id="link1" href="#">Something Like an Interview</a>
+			<a class="link_icon" id="link2" href="mailto:answers@laviscocre.com"></a>
 			
 	</div>
+<script type="text/javascript" >
+$(document).ready(function() {
+	$('#scrollbar1').hide();
+	$('#overview_one').show();
+	$('#link2').hide();
+	$('.link_icon').click(function() {
+		$('#overview_one').hide();
+		$('#link2').show();
+		$('#scrollbar1').show();
+		$('.link_icon').html('Meetings, Greetings and Something Like an Interview');
 
+	});
+
+
+});
+
+
+</script>
 
