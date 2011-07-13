@@ -3,13 +3,13 @@
 			<div class="page_title">Our Partners</div>
 
 				<div class="left_column">
-
+					<div class="image_container">
 					<div id="slideshow">
-						<img src="images/elbowchocolate.jpg" width=360px alt="" class="active border" />
-						<img src="images/gerbergroup.jpg" width=360px alt="" class="border" />
-						<img src="images/giltgroup.jpg" width=360px alt="" class="border" />
+						<img src="images/elbowchocolate.jpg" width=395px alt="" class="active border" />
+						<img src="images/gerbergroup.jpg" width=395px alt="" class="border" />
+						<img src="images/giltgroup.jpg" width=395px alt="" class="border" />
 					</div>
-				
+					</div>
 				</div>
 
 			<div class="right_column"> 

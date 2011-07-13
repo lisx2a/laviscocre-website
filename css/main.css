@@ -8,11 +8,12 @@ body {
 	font-size:0.9em;
 	line-height:1.8em;
 }
- 
+img {border:none} 
  ul li {list-style:none;}
 
  a {text-decoration:none;
    color:#000000;
+	border:1px;
 	cursor:pointer;}
  a:hover {color:510e6d;}
 
@@ -122,6 +123,9 @@ body {
 
 #panel_b1 a:hover {
 	background:transparent url(../images/lavisco_imagemap.png) no-repeat -368px -1px;}
+	
+#panel_b1 #active_b1{	
+	background:transparent url(../images/lavisco_imagemap.png) no-repeat -368px -1px;border:1px solid red; }
 
 #panel_b2 {
 	top:8px;
@@ -186,7 +190,7 @@ body {
 	left:0px;
 	margin:0;
 	padding:5px 0;
-	width:580px;}
+	width:590px;}
 
 #leftfooter li {
 	position:relative;
@@ -215,6 +219,10 @@ body {
 	width:190px;}
 #leftfooter_d{
 	padding-left:10px;
+	width:190px;}
+	
+#leftfooter_e{
+	padding-left:30px;
 	width:190px;}
 
 
@@ -276,6 +284,29 @@ body {
 	top:295px;
 	position:absolute;
 	}
+	
+.link_noicon { 	line-height:1.7em;
+	display:block;
+	margin: 0 0 0 80px;
+	padding-left:40px;
+	font-style:italic;
+	top:295px;
+	position:absolute;
+	}
+
+.link_icon_private { background:transparent url(../images/lavisco_imagemap.png) no-repeat -470px -107px;
+	line-height:1.9em;
+	display:block;
+	margin:0;
+	padding-left:40px;
+	font-style:italic;
+	top:301px;
+	left:-430px;
+	position:absolute;
+	z-index:6000;
+	overflow:normal;
+	}
+
 
 #slideshow {
 	position:relative;
@@ -283,8 +314,8 @@ body {
 
 #slideshow IMG {
 	position:absolute;
-	top:0;
-	left:0;
+	top:6px;
+	left:7px;
 	z-index:8;}
 
 #slideshow IMG.active {
@@ -344,7 +375,10 @@ position:relative;top:86px;width:360px;height:250px;float:left;margin:0 0 0 10px
 	position:relative;
 }
 
-.small_column h2 {font-size:1em;
+.small_column li {
+	list-style-type:disc;
+ }
+.small_column h2 {font-size:1.2em;
 	margin:0 0 -10px 0;}
 
 .small_column ul {
@@ -367,18 +401,18 @@ position:relative;top:86px;width:360px;height:250px;float:left;margin:0 0 0 10px
 	float:left;
 }
 
-#scrollbar1 { width: 420px; margin: 0px; }
-#scrollbar1 .viewport { width: 400px; height: 200px; overflow: hidden; position: relative; }
+#scrollbar1 { width: 420px; margin:  0 0 40px 0px;}
+#scrollbar1 .viewport {width: 400px; height: 250px; overflow: hidden; margin-bottom:40px; }
 #scrollbar1 .overview { list-style: none; position: relative; left: 0; top: 0; }
 #scrollbar1 .thumb .end,
 #scrollbar1 .thumb { background-color: #515151; }
 #scrollbar1 .scrollbar { position: relative; float: right; width: 15px; }
-#scrollbar1 .track { background-color: #CCC; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .track { background-color: #CCC; height: 250px; width:13px; position: relative; padding: 0 1px; }
 #scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: relative; top: 0; }
-#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px;}
 #scrollbar1 .disable{ display: none; }
 #overview_one {
-	font-size:.8em;}
+	font-size:1.95em;}
 
 .center {top:30px;
 	left:15px;
@@ -403,4 +437,39 @@ position:relative;top:86px;width:360px;height:250px;float:left;margin:0 0 0 10px
 	width:160px;
 	margin-top:15px;}
 
+.portfolio_description {
+	margin:-2px 0 0 0;
+	height:120px;
+	width:416px;
+}
 
+.gallery_clip {
+	width:95px;
+	height:80px;
+	border:1px solid black;
+	float:left;
+	margin:50px 10px 0 0px;
+}
+
+#gallery_closeup {
+	width:409px;
+	height:242px;
+	border:1px solid black;
+}
+
+.image_container {
+	border:1px solid black;
+	width:409px;
+	height:242px;
+}
+
+.image_container img {
+	top:6px;
+	left:7px;
+	position:relative;
+
+}
+
+#contactus_text {
+	line-height:1.97em;
+	}

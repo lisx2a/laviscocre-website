@@ -4,11 +4,14 @@
 		<div class="page_title">Meet with Us</div>
 
 			<div class="left_column">
+
+				<div class="image_container">
 				<div id="slideshow">
-						<img src="images/img1.jpg" width="360px" alt="" class="active border" />
-						<img src="images/img2.jpg" width="360px" alt="" class="border" />
-						<img src="images/img3.jpg" width="360px" alt="" class="border"/>
-					</div>
+						<img src="images/img1.jpg" width="395px" alt=""  />
+						<img src="images/img2.jpg" width="395px" alt=""  />
+						<img src="images/img3.jpg" width="395px" alt="" />
+				</div>
+				</div>
 				
 				</div>
 			

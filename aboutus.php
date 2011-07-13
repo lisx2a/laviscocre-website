@@ -1,6 +1,6 @@
 	<div class="internal_content">
 
-		<div class="page_title">About Us</div>
+		<div class="page_title">About Lavisco Cre&#8482;</div>
 
 
 			<div class="center_column">	

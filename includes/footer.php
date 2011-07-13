@@ -4,11 +4,12 @@
 	<div class="divider"></div>
 	<div id="leftfooter">
 		<ul>
-			<li>LAVISCO CRE&trade;</li>
+			<li>&copy;LAVISCO CRE&trade;</li>
 			<li id="leftfooter_a"><a href="?page=contactus">contact us</a></li>
 			<li id="leftfooter_b"><a href="?page=sitemap">site map</a></li>
 			<li id="leftfooter_c"><a href="?page=partners">partners</a></li>
-			<li id="leftfooter_d"><a href=?page=client">client login</a></li>
+			<li id="leftfooter_d"><a href="?page=client">client login</a></li>
+			<li id="leftfooter_e"><a href="#">LAVISCO CRE&trade; Studios</a></li>
 		</ul>
 	</div>
 

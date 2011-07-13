@@ -15,7 +15,7 @@
 						<p>- Meet some of the professionals of the company</p>
 					</li>
 					
-					<li><a class="sitemaplink" href="?page=portfolio.php">Portfolio</a><br />
+					<li><a class="sitemaplink" href="?page=portfolio">Portfolio</a><br />
 						<p>- Work that we love to share</p>
 					</li>
 				
@@ -41,7 +41,7 @@
 							
 							<li>- Ted Ou-Yang, Marketing Director</li>
 							
-							<li>- Lashawn Ciss&eacute;,Research Director</li>
+							<li>- Lashawn Ciss&eacute;, Research Director</li>
 							
 							<li>- Office (917) 972-9100</li>
 						</ul>
